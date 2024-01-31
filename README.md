@@ -443,8 +443,14 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __No, Any modifications done inside a container, including newly created files, are lost when the container is terminated or removed.__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes. We can run several Debian Linux container instances at once. Without interfering with other containers, each container instance can run its own services and processes independently.__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** 
+```No, Any modifications done inside a container, including newly created files, are lost when the container is terminated or removed.
+```
+
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** 
+```
+Yes. We can run several Debian Linux container instances at once. Without interfering with other containers, each container instance can run its own services and processes independently.
+```
 
 ## Running your own container with persistent storage
 
