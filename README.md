@@ -22,8 +22,14 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/qsdinaa/OSProject__.
-2. How many files and folders are in this repository. ***(1 mark)*** __1 folder, 6 files__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** 
+```
+https://github.com/qsdinaa/OSProject
+```
+2. How many files and folders are in this repository. ***(1 mark)*** 
+```
+1 folder called images, 6 files of png format
+```
 
 
 ## Exploring github codespaces
