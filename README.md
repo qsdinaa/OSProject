@@ -75,11 +75,11 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** 
-```@qsdinaa ➜ /workspaces/OSProject (main) $ pwd
-/workspaces/OSProject```
+@qsdinaa ➜ /workspaces/OSProject (main) $ pwd
+/workspaces/OSProject
 
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** 
-```@qsdinaa ➜ /workspaces/OSProject (main) $ cat /etc/passwd
+@qsdinaa ➜ /workspaces/OSProject (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -104,7 +104,7 @@ systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/n
 systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
-sshd:x:105:65534::/run/sshd:/usr/sbin/nologin```
+sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
 
 
 3. Run the command **df** . ***(1 mark)*** 
@@ -444,8 +444,19 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)***
+
+-rw-rw-rw-  1 codespace codespace    0 Jan 31 14:22 meow.txt
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
+
+@qsdinaa ➜ /workspaces/OSProject/myroot (main) $ ls -la
+total 12
+drwxrwxrwx+ 3 codespace codespace 4096 Jan 31 14:22 .
+drwxrwxrwx+ 5 codespace root      4096 Jan 31 13:54 ..
+-rw-rw-rw-  1 codespace codespace    0 Jan 31 14:22 meow.txt
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 31 14:07 myroot
+
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
