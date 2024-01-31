@@ -449,13 +449,14 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 -rw-rw-rw-  1 codespace codespace    0 Jan 31 14:22 meow.txt
 
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
-
+```
 @qsdinaa ➜ /workspaces/OSProject/myroot (main) $ ls -la
 total 12
 drwxrwxrwx+ 3 codespace codespace 4096 Jan 31 14:22 .
 drwxrwxrwx+ 5 codespace root      4096 Jan 31 13:54 ..
 -rw-rw-rw-  1 codespace codespace    0 Jan 31 14:22 meow.txt
 drwxrwxrwx+ 2 codespace codespace 4096 Jan 31 14:07 myroot
+```
 
 ```bash
 //use sudo and chown
