@@ -371,19 +371,37 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5937.5 avail Mem
 Linux codespaces-c070ec 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-11. What is the available free memory in the system. ***(1 mark)*** __138MiB__.
+11. What is the available free memory in the system. ***(1 mark)*** 
+```
+138MiB
+```
 
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __17516332 1K-blocks__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)***
+```
+17516332 1K-blocks
+```
 
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Linux version 6.2.0-1018-azure, x86_64 architecture__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
+```
+Linux version 6.2.0-1018-azure, x86_64 architecture
+```
 
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __both ls and ls -asl are listing the files and directories in the current directory however, ls -asl lists them in detailed format, including the hidden files__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** 
+```
+both ls and ls -asl are listing the files and directories in the current directory however, ls -asl lists them in detailed format, including the hidden files
+```
 
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __2560 4K pages__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
+```
+2560 4K pages
+```
 
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __3243.285 MHz__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 
+```
+3243.285 MHz
+```
 
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __The top running process is identified by its PID 2069 with the command 'node'. It's consuming 1.0% CPU and 4.2% of memory__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** ```The top running process is identified by its PID 2069 with the command 'node'. It's consuming 1.0% CPU and 4.2% of memory```
 
 ## Running your own container instance.
 
@@ -444,7 +462,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ***Questions:***
 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** 
-```No, Any modifications done inside a container, including newly created files, are lost when the container is terminated or removed.
+```
+No, Any modifications done inside a container, including newly created files, are lost when the container is terminated or removed.
 ```
 
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** 
