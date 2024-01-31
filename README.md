@@ -520,7 +520,7 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
 ```root and root```
 2. What port is the apache web server running. ***(1 mark)***
-```8080```
+```8888```
 3. What port is open for http protocol on the host machine? ***(1 mark)***
 ```80```
 
