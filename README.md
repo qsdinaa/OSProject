@@ -23,7 +23,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/qsdinaa/OSProject__.
-2. How many files and folders are in this repository. ***(1 mark)*** __2 folders__.
+2. How many files and folders are in this repository. ***(1 mark)*** __1 folder, 6 files__.
 
 
 ## Exploring github codespaces
@@ -55,9 +55,9 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Ubuntu Linux__.
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Option 1 : 7GB RAM, 14GB disk, 2 vcpu. Option 2 : 15GB RAM, 28GB disk, 4 vcpu__.
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** __to save the changes being made in the local repository__.
 
 ## Exploring the Terminal
 
