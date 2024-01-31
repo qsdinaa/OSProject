@@ -75,10 +75,14 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** 
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ pwd
 /workspaces/OSProject
+```
+
 
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** 
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -105,9 +109,10 @@ systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
-
+```
 
 3. Run the command **df** . ***(1 mark)*** 
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 13637252  17516332  44% /
@@ -116,8 +121,10 @@ shm                65536        8     65528   1% /dev/shm
 /dev/root       30298176 23049352   7232440  77% /vscode
 /dev/sdb1       46127956      352  43752028   1% /tmp
 /dev/loop3      32847680 13637252  17516332  44% /workspaces
+```
 
 4. Run the command **du** . ***(1 mark)*** 
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ du
 1972    ./images
 8       ./.git/logs/refs/heads
@@ -205,12 +212,17 @@ shm                65536        8     65528   1% /dev/shm
 64      ./.git/hooks
 2624    ./.git
 4616    .
+```
 
 5. Run the command **ls** . ***(1 mark)***
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ ls
 README.md  images
+```
+
 
 6. Run the command **ls -asl** . ***(1 mark)*** 
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ ls -asl
 total 32
  4 drwxrwxrwx+ 4 codespace root  4096 Jan 31 04:16 .
@@ -218,14 +230,18 @@ total 32
  4 drwxrwxrwx+ 9 codespace root  4096 Jan 31 04:39 .git
 16 -rw-rw-rw-  1 codespace root 15547 Jan 31 04:44 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jan 31 04:16 images
+```
 
 7. Run the command **free -h** . ***(1 mark)***
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ free -h
               total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.6Gi       138Mi       1.0Mi       6.0Gi       5.8Gi
 Swap:            0B          0B          0B
+```
 
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
 processor       : 0
 vendor_id       : AuthenticAMD
@@ -347,10 +363,13 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5937.5 avail Mem
    1545 root      20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh                                                                                      
    2032 codespa+  20   0    2624   1664   1664 S   0.0   0.0   0:00.00 sh                                                                                      
    2041 codespa+  20   0  972060 111644  42496 S   0.0   1.4   0:06.75 node  
+```
 
 10. Run the command **uname -a**. ***(1 mark)*** 
+```
 @qsdinaa ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-c070ec 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+```
 
 11. What is the available free memory in the system. ***(1 mark)*** __138MiB__.
 
